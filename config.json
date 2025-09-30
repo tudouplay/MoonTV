@@ -4,86 +4,79 @@
     "dyttzy": {
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "name": "电影天堂资源",
-      "detail": "http://caiji.dyttzyapi.com"
+      "detail": "http://caiji.dyttzyapi.com",
+      "priority": 1,
+      "status": "active"
     },
-    "heimuer": {
-      "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "name": "黑木耳",
-      "detail": "https://heimuer.tv"
+    "m3u8k": {
+      "api": "https://api.m3u8k.com/vod/api",
+      "name": "M3U8影视",
+      "priority": 2,
+      "status": "active"
     },
-    "ruyi": {
-      "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "name": "如意资源"
+    "pianku": {
+      "api": "https://api.pianku.fun/api/vod",
+      "name": "片库网",
+      "detail": "https://pianku.fun",
+      "priority": 3,
+      "status": "active"
     },
-    "bfzy": {
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "name": "暴风资源"
+    "dy2018": {
+      "api": "https://api.dy2018.com/vod",
+      "name": "电影天堂2018",
+      "priority": 4,
+      "status": "active"
     },
-    "tyyszy": {
-      "api": "https://tyyszy.com/api.php/provide/vod",
-      "name": "天涯资源"
+    "btdx8": {
+      "api": "https://api.btdx8.com/api/vod",
+      "name": "比特星球",
+      "priority": 5,
+      "status": "active"
     },
-    "ffzy": {
-      "api": "http://ffzy5.tv/api.php/provide/vod",
-      "name": "非凡影视",
-      "detail": "http://ffzy5.tv"
+    "kkys": {
+      "api": "https://api.kkys.net/vod",
+      "name": "快看影视",
+      "priority": 6,
+      "status": "active"
     },
-    "zy360": {
-      "api": "https://360zy.com/api.php/provide/vod",
-      "name": "360资源"
-    },
-    "maotaizy": {
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "name": "茅台资源"
-    },
-    "wolong": {
-      "api": "https://wolongzyw.com/api.php/provide/vod",
-      "name": "卧龙资源"
-    },
-    "jisu": {
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "name": "极速资源",
-      "detail": "https://jszyapi.com"
-    },
-    "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "name": "豆瓣资源"
-    },
-    "mozhua": {
-      "api": "https://mozhuazy.com/api.php/provide/vod",
-      "name": "魔爪资源"
-    },
-    "mdzy": {
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "name": "魔都资源"
-    },
-    "zuid": {
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "name": "最大资源"
-    },
-    "yinghua": {
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "name": "樱花资源"
-    },
-    "wujin": {
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "name": "无尽资源"
-    },
-    "wwzy": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "旺旺短剧"
-    },
-    "ikun": {
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "name": "iKun资源"
-    },
-    "lzi": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "量子资源站"
-    },
-    "xiaomaomi": {
-      "api": "https://zy.xmm.hk/api.php/provide/vod",
-      "name": "小猫咪资源"
+    "zmz2023": {
+      "api": "https://api.zmz2023.com/vod",
+      "name": "字幕组影视",
+      "detail": "https://zmz2023.com",
+      "priority": 7,
+      "status": "active"
     }
+  },
+  "custom_category": [
+    {
+      "name": "华语",
+      "type": "movie",
+      "query": "华语"
+    },
+    {
+      "name": "科幻大片",
+      "type": "movie",
+      "query": "科幻"
+    },
+    {
+      "name": "热门韩剧",
+      "type": "tv",
+      "query": "韩剧"
+    },
+    {
+      "name": "高分纪录片",
+      "type": "tv",
+      "query": "纪录片"
+    },
+    {
+      "name": "经典港片",
+      "type": "movie",
+      "query": "港片"
+    }
+  ],
+  "resource_filters": {
+    "exclude_low_quality": false,
+    "exclude_adult_content": true,
+    "prefer_hd": true
   }
 }
